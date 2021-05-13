@@ -8,7 +8,7 @@
 		"lint": "vue-cli-service lint",
 		"dev": "nodemon index.js",
 		"start": "node index.js",
-		"test:vrt":  "percy exec cypress run --spec node_modules/.bin/cypress/integration/main-page.spec"
+		"test:vrt": "percy exec cypress run --spec cypress/integration/main-page.spec"
 	},
 	"dependencies": {
 		"body-parser": "^1.19.0",
@@ -29,7 +29,7 @@
 		"@percy/cypress": "^3.1.0",
 		"@vue/cli-plugin-babel": "^4.2.0",
 		"@vue/cli-plugin-typescript": "^4.2.0",
-		"@vue/cli-service": "^4.1.1",
+		"@vue/cli-service": "^3.12.1",
 		"cypress": "^7.2.0",
 		"mocha": "^8.3.2",
 		"mochawesome": "^6.2.2",

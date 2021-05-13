@@ -1,0 +1,205 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 6,
+    "passes": 5,
+    "pending": 0,
+    "failures": 1,
+    "start": "2021-05-13T21:06:13.340Z",
+    "end": "2021-05-13T21:06:55.770Z",
+    "duration": 42430,
+    "testsRegistered": 6,
+    "passPercent": 83.33333333333334,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "b364f824-d68d-4511-89bd-e4d78eef59b5",
+      "title": "",
+      "fullFile": "cypress/integration/main-page.spec.js",
+      "file": "cypress/integration/main-page.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "c9fbe1c8-57b1-4e1b-8686-4218ce4a1e00",
+          "title": "Testsuite",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Validate Rooms Block",
+              "fullTitle": "Testsuite Validate Rooms Block",
+              "timedOut": null,
+              "duration": 11734,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "welcomePageFuncs.verifyRoomBlock();\ncy.percySnapshot('Validate Rooms Block');",
+              "err": {
+                "message": "CypressError: `cy.then()` timed out after waiting `4000ms`.\n\nYour callback function returned a promise that never resolved.\n\nThe callback function was:\n\ndom => {\n      let domSnapshot = window.PercyDOM.serialize({ ...options, dom });\n\n      // Post the DOM snapshot to Percy\n      return utils.postSnapshot({\n        ...options,\n        environmentInfo: ENV_INFO,\n        clientInfo: CLIENT_INFO,\n        domSnapshot,\n        url: dom.URL,\n        name\n      }).then(() => {\n        // Log the snapshot name on success\n        cylog(name, { name });\n      }).catch(error => {\n        // Handle errors\n        log.error(`Could not take DOM snapshot \"${name}\"`);\n        log.error(error);\n      });\n    }\n\nhttps://on.cypress.io/then",
+                "estack": "CypressError: `cy.then()` timed out after waiting `4000ms`.\n\nYour callback function returned a promise that never resolved.\n\nThe callback function was:\n\ndom => {\n      let domSnapshot = window.PercyDOM.serialize({ ...options, dom });\n\n      // Post the DOM snapshot to Percy\n      return utils.postSnapshot({\n        ...options,\n        environmentInfo: ENV_INFO,\n        clientInfo: CLIENT_INFO,\n        domSnapshot,\n        url: dom.URL,\n        name\n      }).then(() => {\n        // Log the snapshot name on success\n        cylog(name, { name });\n      }).catch(error => {\n        // Handle errors\n        log.error(`Could not take DOM snapshot \"${name}\"`);\n        log.error(error);\n      });\n    }\n\nhttps://on.cypress.io/then\n    at http://localhost:3000/__cypress/runner/cypress_runner.js:135872:24\n    at tryCatcher (http://localhost:3000/__cypress/runner/cypress_runner.js:10791:23)\n    at http://localhost:3000/__cypress/runner/cypress_runner.js:5913:41\n    at tryCatcher (http://localhost:3000/__cypress/runner/cypress_runner.js:10791:23)\n    at Promise._settlePromiseFromHandler (http://localhost:3000/__cypress/runner/cypress_runner.js:8726:31)\n    at Promise._settlePromise (http://localhost:3000/__cypress/runner/cypress_runner.js:8783:18)\n    at Promise._settlePromise0 (http://localhost:3000/__cypress/runner/cypress_runner.js:8828:10)\n    at Promise._settlePromises (http://localhost:3000/__cypress/runner/cypress_runner.js:8904:18)\n    at _drainQueueStep (http://localhost:3000/__cypress/runner/cypress_runner.js:5498:12)\n    at _drainQueue (http://localhost:3000/__cypress/runner/cypress_runner.js:5491:9)\n    at Async.../../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:3000/__cypress/runner/cypress_runner.js:5507:5)\n    at Async.drainQueues (http://localhost:3000/__cypress/runner/cypress_runner.js:5377:14)\nFrom Your Spec Code:\n    at Context.eval (http://localhost:3000/__cypress/tests?p=cypress\\support\\index.js:201:40)",
+                "diff": null
+              },
+              "uuid": "d5bac4e0-1996-492c-a685-99a62641cf39",
+              "parentUUID": "c9fbe1c8-57b1-4e1b-8686-4218ce4a1e00",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Validate Reservation Block",
+              "fullTitle": "Testsuite Validate Reservation Block",
+              "timedOut": null,
+              "duration": 5472,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "welcomePageFuncs.verifyReservationBlock();\ncy.percySnapshot('Validate Reservation Block');",
+              "err": {},
+              "uuid": "68d1b423-36a8-4155-9c49-abc6ca700b6d",
+              "parentUUID": "c9fbe1c8-57b1-4e1b-8686-4218ce4a1e00",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Validate client Block",
+              "fullTitle": "Testsuite Validate client Block",
+              "timedOut": null,
+              "duration": 4734,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "welcomePageFuncs.verifyClientBlock();\ncy.percySnapshot('Validate client Block');",
+              "err": {},
+              "uuid": "5891125b-c9a8-46df-88ed-013faa474f2a",
+              "parentUUID": "c9fbe1c8-57b1-4e1b-8686-4218ce4a1e00",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Validate Bills Block",
+              "fullTitle": "Testsuite Validate Bills Block",
+              "timedOut": null,
+              "duration": 2643,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "welcomePageFuncs.verifyBillsBlock();\ncy.percySnapshot('Validate Bills Block');",
+              "err": {},
+              "uuid": "70d991e8-bfd1-4ce7-8df1-9521ccd09609",
+              "parentUUID": "c9fbe1c8-57b1-4e1b-8686-4218ce4a1e00",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "View Room Page",
+              "fullTitle": "Testsuite View Room Page",
+              "timedOut": null,
+              "duration": 2520,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "welcomePageFuncs.verifyRoomBlock();\nroomPageFuncs.verifyRoomPage();\ncy.percySnapshot('View Room Page');",
+              "err": {},
+              "uuid": "abb88dd9-52c6-4f41-9646-56de98cb8459",
+              "parentUUID": "c9fbe1c8-57b1-4e1b-8686-4218ce4a1e00",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Create Room Page",
+              "fullTitle": "Testsuite Create Room Page",
+              "timedOut": null,
+              "duration": 6388,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "welcomePageFuncs.verifyRoomBlock();\nroomPageFuncs.verifyRoomPage();\ncreatePageFuncs.verifyCreateRoom();\ncy.percySnapshot('Create Room Page');",
+              "err": {},
+              "uuid": "a12176bb-8ed2-404f-b346-07add6aa797e",
+              "parentUUID": "c9fbe1c8-57b1-4e1b-8686-4218ce4a1e00",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "68d1b423-36a8-4155-9c49-abc6ca700b6d",
+            "5891125b-c9a8-46df-88ed-013faa474f2a",
+            "70d991e8-bfd1-4ce7-8df1-9521ccd09609",
+            "abb88dd9-52c6-4f41-9646-56de98cb8459",
+            "a12176bb-8ed2-404f-b346-07add6aa797e"
+          ],
+          "failures": [
+            "d5bac4e0-1996-492c-a685-99a62641cf39"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 33491,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/results",
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}
