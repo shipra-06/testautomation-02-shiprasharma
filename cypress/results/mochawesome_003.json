@@ -1,0 +1,200 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 6,
+    "passes": 6,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-05-13T20:57:31.401Z",
+    "end": "2021-05-13T20:57:53.143Z",
+    "duration": 21742,
+    "testsRegistered": 6,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "838ae4dd-d6f1-4cd0-8a94-8afe9a12f484",
+      "title": "",
+      "fullFile": "cypress/integration/main-page.spec.js",
+      "file": "cypress/integration/main-page.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "297fe173-cd9c-4c29-8267-82039ab49d59",
+          "title": "Testsuite",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Validate Rooms Block",
+              "fullTitle": "Testsuite Validate Rooms Block",
+              "timedOut": null,
+              "duration": 3305,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "welcomePageFuncs.verifyRoomBlock();\ncy.percySnapshot('Validate Rooms Block');",
+              "err": {},
+              "uuid": "973abcaa-6d96-4d3c-95ac-49855e6b680a",
+              "parentUUID": "297fe173-cd9c-4c29-8267-82039ab49d59",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Validate Reservation Block",
+              "fullTitle": "Testsuite Validate Reservation Block",
+              "timedOut": null,
+              "duration": 2067,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "welcomePageFuncs.verifyReservationBlock();\ncy.percySnapshot('Validate Reservation Block');",
+              "err": {},
+              "uuid": "0384be6b-a472-4130-838d-6397712c8793",
+              "parentUUID": "297fe173-cd9c-4c29-8267-82039ab49d59",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Validate client Block",
+              "fullTitle": "Testsuite Validate client Block",
+              "timedOut": null,
+              "duration": 1950,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "welcomePageFuncs.verifyClientBlock();\ncy.percySnapshot('Validate client Block');",
+              "err": {},
+              "uuid": "eae799c5-a8ea-4dcc-b2aa-5e3423df9dc2",
+              "parentUUID": "297fe173-cd9c-4c29-8267-82039ab49d59",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Validate Bills Block",
+              "fullTitle": "Testsuite Validate Bills Block",
+              "timedOut": null,
+              "duration": 1758,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "welcomePageFuncs.verifyBillsBlock();\ncy.percySnapshot('Validate Bills Block');",
+              "err": {},
+              "uuid": "775708eb-307b-4f41-8815-4f45faa18676",
+              "parentUUID": "297fe173-cd9c-4c29-8267-82039ab49d59",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "View Room Page",
+              "fullTitle": "Testsuite View Room Page",
+              "timedOut": null,
+              "duration": 1927,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "welcomePageFuncs.verifyRoomBlock();\nroomPageFuncs.verifyRoomPage();\ncy.percySnapshot('View Room Page');",
+              "err": {},
+              "uuid": "a191784c-f3ba-49b6-8ac8-5a00429827bd",
+              "parentUUID": "297fe173-cd9c-4c29-8267-82039ab49d59",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Create Room Page",
+              "fullTitle": "Testsuite Create Room Page",
+              "timedOut": null,
+              "duration": 4726,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "welcomePageFuncs.verifyRoomBlock();\nroomPageFuncs.verifyRoomPage();\ncreatePageFuncs.verifyCreateRoom();\ncy.percySnapshot('Create Room Page');",
+              "err": {},
+              "uuid": "2cc7e12e-69d5-402d-aa4b-544e21fea5ed",
+              "parentUUID": "297fe173-cd9c-4c29-8267-82039ab49d59",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "973abcaa-6d96-4d3c-95ac-49855e6b680a",
+            "0384be6b-a472-4130-838d-6397712c8793",
+            "eae799c5-a8ea-4dcc-b2aa-5e3423df9dc2",
+            "775708eb-307b-4f41-8815-4f45faa18676",
+            "a191784c-f3ba-49b6-8ac8-5a00429827bd",
+            "2cc7e12e-69d5-402d-aa4b-544e21fea5ed"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 15733,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/results",
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-05-12T12:27:49.539Z",
+    "end": "2021-05-12T12:28:02.541Z",
+    "duration": 13002,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "f4497950-1e26-4bf7-a2cb-c0536b46b335",
+      "title": "",
+      "fullFile": "cypress/integration/InvalidLogin.spec.js",
+      "file": "cypress/integration/InvalidLogin.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "34799e8d-7e75-4be0-bfe8-8909d424ca0a",
+          "title": "Testsuite",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Verify invalid Password Login",
+              "fullTitle": "Testsuite Verify invalid Password Login",
+              "timedOut": null,
+              "duration": 5056,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "loginFuncs.performInValidLogin('tester01', password, 'Bad username or password');\ncy.percySnapshot('Verify invalid Password Login');",
+              "err": {},
+              "uuid": "7958cc51-83ce-4c5f-a603-2f0bdd4f7e17",
+              "parentUUID": "34799e8d-7e75-4be0-bfe8-8909d424ca0a",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Verify invalid Username Login",
+              "fullTitle": "Testsuite Verify invalid Username Login",
+              "timedOut": null,
+              "duration": 2029,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "loginFuncs.performInValidLogin(username, 'GteteqbQQgSr88SwNExUQv2ydb7xuf8c', 'Bad username or password');\ncy.percySnapshot('Verify invalid Username Login');",
+              "err": {},
+              "uuid": "352a41be-36d2-49c4-8651-a624b08e3d45",
+              "parentUUID": "34799e8d-7e75-4be0-bfe8-8909d424ca0a",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "7958cc51-83ce-4c5f-a603-2f0bdd4f7e17",
+            "352a41be-36d2-49c4-8651-a624b08e3d45"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 7085,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/results",
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}
